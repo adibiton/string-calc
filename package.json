@@ -1,8 +1,11 @@
 {
   "name": "string-calc",
   "version": "1.0.0",
-  "description": "work with very large numbers math",
+  "description": "calculator for very large numbers",
   "main": "strint.js",
+  "tags": {
+    "calculator"
+  },
   "directories": {
     "test": "test"
   },
