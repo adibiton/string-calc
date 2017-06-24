@@ -1,6 +1,6 @@
 {
   "name": "string-calc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "calculator for very large numbers",
   "main": "strint.js",
   "directories": {
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git@github.com-adibiton:adibiton/string-calc.git"
   },
-  "keywords": ["calculator"],
+  "keywords": [
+    "calculator"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
