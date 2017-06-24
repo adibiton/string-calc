@@ -1,0 +1,22 @@
+{
+  "name": "string-calc",
+  "version": "1.0.0",
+  "description": "work with very large numbers math",
+  "main": "strint.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-adibiton:adibiton/string-calc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "20.0.*"
+  }
+}
