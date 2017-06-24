@@ -1,9 +1,19 @@
-##Forked from strint
-### strint – a JavaScript library for string-encoded integers
+### string-calc – a JavaScript library for string-encoded integers
 
 **Experimental code – beware**
 
 Getting Started
+```
+npm i string-cal -S
+```
+
+Then, call from your file:
+
+```javascript
+const stringCalc = require('string-calc');
+
+console.log(stringCalc.mul("3403","3232345")  // "10999670035"
+```
 
 This library lets you work with arbitrarily large integers, by storing them in strings. The focus has been on ease of understanding, not on performance. This library should still be useful for applications where performance isn’t critical, but you need to work with large integers.
 
