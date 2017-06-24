@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "calculator for very large numbers",
   "main": "strint.js",
-  "tags": {
-    "calculator"
-  },
   "directories": {
     "test": "test"
   },
@@ -16,7 +13,7 @@
     "type": "git",
     "url": "git@github.com-adibiton:adibiton/string-calc.git"
   },
-  "keywords": [],
+  "keywords": ["calculator"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
