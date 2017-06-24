@@ -1,12 +1,12 @@
 'use strict';
-const add = require('lib/add');
+const sum = require('lib/sum');
 const sub = require('lib/sub');
 const mul = require('lib/mul');
 const div = require('lib/div');
 
 
 module.exports = {
-	add,
+	sum,
 	sub,
 	mul,
 	div
