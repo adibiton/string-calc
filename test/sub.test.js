@@ -5,7 +5,7 @@ test('1 - 4 to equal -3', () =>{
   expect(sub('1','4')).toBe('-3');
 });
 
-test('1 + 0 to equal 1', () =>{
+test('1 - 0 to equal 1', () =>{
   expect(sub('1','0')).toBe('1');
 });
 

@@ -29,8 +29,19 @@ const normalize = (strint) => {
 const leftPadZeros = (strint, digitCount) => {
   forcePositiveString(strint);
   forceNonNegativeNumber(digitCount);
-  return prefixZeros(strint, digitCount-strint.length);
-}
+  return prefixZeros(strint, digitCount - strint.length);
+};
+
+const postfixZeros = (strint, zeroCount) => {
+  forcePositiveString(strint);
+  forceNonNegativeNumber(zeroCount);
+
+  var result = strint;
+  for (var i = 0; i < zeroCount; i++) {
+    result = result + '0';
+  }
+  return result;
+};
 
 const prefixZeros = (strint, zeroCount) => {
   forcePositiveString(strint);
@@ -71,6 +82,7 @@ const shiftLeft = (strint, digitCount) => {
 
 module.exports = {
   prefixZeros,
+  postfixZeros,
   leftPadZeros,
   getDigit,
   getDigitCount,
