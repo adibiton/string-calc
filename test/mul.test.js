@@ -21,6 +21,18 @@ test('-2 * (-2) to equal 4', () =>{
   expect(mul("-2", "-2")).toBe("4");
 });
 
+test('-2 * (-2) to equal 4', () =>{
+  expect(mul("-2", "-2")).toBe("4");
+});
+
+test('33323232 * 0 to equal 0', () =>{
+  expect(mul("33323232", "0")).toBe("0");
+});
+
+test('0 * 33323232 to equal 0', () =>{
+  expect(mul("0", "33323232")).toBe("0");
+});
+
 test('2 * (-2) to equal -4', () =>{
   expect(mul("2", "-2")).toBe("-4");
 });
