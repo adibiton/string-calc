@@ -1,7 +1,5 @@
 ### string-calc – a JavaScript library for string-encoded integers
 
-**Experimental code – beware**
-
 Getting Started
 ```
 npm i string-cal -S
@@ -15,7 +13,10 @@ const stringCalc = require('string-calc');
 console.log(stringCalc.mul("3403","3232345")  // "10999670035"
 ```
 
-This library lets you work with arbitrarily large integers, by storing them in strings. The focus has been on ease of understanding, not on performance. This library should still be useful for applications where performance isn’t critical, but you need to work with large integers.
+This library lets you work with arbitrarily large integers, by storing them in strings.
+The focus has been on ease of understanding, not on performance.
+This library should still be useful for applications where performance isn’t critical,
+but you need to work with large integers.
 
 The following operations are available:
 
@@ -32,14 +33,3 @@ The following operations are available:
 * `isNegative(x)`
 * `isPositive(x)`
 * `negate(x)`
-
-Interaction:
-
-    > var strint = require("./strint");
-    > strint.add("9007199254740992", "1")
-    '9007199254740993'
-
-Compare:
-
-    > 9007199254740992 + 1
-    9007199254740992
