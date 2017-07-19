@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-adibiton:adibiton/string-calc.git"
+    "url": "http://github.com-adibiton:adibiton/string-calc.git"
   },
   "keywords": [
     "calculator"
